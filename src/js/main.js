@@ -38,6 +38,10 @@ readFile('./data.json', function(text) {
     link.href = '#';
     link.classList.add('list-item__link');
     link.innerHTML = element[prop][0].name_cat;
+    link.onclick = e => {
+      e.preventDefault();
+      console.log(e.target.textContent);
+    }
     _ul.appendChild(_li_ul);
     _li_ul.appendChild(link);
   });
@@ -45,7 +49,6 @@ readFile('./data.json', function(text) {
   btnSend.textContent ='Отправить';
   btnSend.classList.add('btn-send');
   btnSend.onclick = () => {
-    console.log('click');
     sendData();
   }
   app.appendChild(btnSend);

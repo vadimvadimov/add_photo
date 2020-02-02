@@ -31,6 +31,21 @@
       ]
     },
     {
+      "kosmetika": [
+        {
+          "name_cat": "Косметика"
+        },
+        {
+          "name": "Деталь 1",
+          "status_photo": false
+        },
+        {
+          "name": "Деталь 2",
+          "status_photo": false
+        }
+      ]
+    },
+    {
       "raznoe": [
         {
           "name_cat": "Разное"
