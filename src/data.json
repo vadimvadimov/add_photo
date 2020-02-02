@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "legk": [
+        {
+          "name_cat": "Легковые"
+        },
+        {
+          "name": "Деталь 1",
+          "status_photo": false
+        },
+        {
+          "name": "Деталь 2",
+          "status_photo": false
+        }
+      ]
+    },
+    {
+      "gruz": [
+        {
+          "name_cat": "Грузовые"
+        },
+        {
+          "name": "Деталь 1",
+          "status_photo": false
+        },
+        {
+          "name": "Деталь 2",
+          "status_photo": false
+        }
+      ]
+    },
+    {
+      "raznoe": [
+        {
+          "name_cat": "Разное"
+        },
+        {
+          "name": "Деталь 1",
+          "status_photo": false
+        },
+        {
+          "name": "Деталь 2",
+          "status_photo": false
+        }
+      ]
+    }
+  ]
+}
